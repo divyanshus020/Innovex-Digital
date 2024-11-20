@@ -18,8 +18,8 @@ export default function LandingPage() {
           touchControls: true,
           backgroundColor: 0x0,
           gyroControls: false,
-          color: 0x0,
-          backgroundAlpha: 0.7,
+          color:  0x0077ff,
+          backgroundAlpha: 0.9,
           minHeight: 200.00,
           minWidth: 200.00,
           scaleMobile: 1.00,
@@ -34,7 +34,7 @@ export default function LandingPage() {
   }, [vantaEffect]);
 
   return (
-    <div ref={vantaRef} className="w-full h-screen flex items-center p-20 relative">
+    <div ref={vantaRef} className="w-full h-screen flex items-center p-20 relative mb-1">
       {/* Landing Page Content */}
       <div className="text-left text-white z-10">
         <h1 className="text-5xl font-bold mb-4">Innovex Digital</h1>
@@ -42,7 +42,8 @@ export default function LandingPage() {
         <Button text="Get Started" onClick={() => alert("Button clicked!")} />
       </div>
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+      {/* <div className="absolute inset-0 bg  "></div> */}
+      
     </div>
   );
 }

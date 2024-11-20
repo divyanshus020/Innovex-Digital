@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className="relative">
       <nav
         className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-20 
-          w-11/12 max-w-4xl bg-gray-800 text-white px-6 py-4 rounded-full shadow-lg 
+          w-11/12 max-w-4xl bg-gray-800 text-white px-6 py-4 rounded-full  
           flex justify-between items-center transition-all duration-300`}
       >
         {/* Logo */}
